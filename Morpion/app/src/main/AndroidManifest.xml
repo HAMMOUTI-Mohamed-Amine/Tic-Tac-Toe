@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="dz.univtemouchent.morpion">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".aide"></activity>
+        <activity android:name=".version_simple" />
+        <activity
+            android:name=".repons2"
+            android:screenOrientation="portrait"> <!-- mode portrait -->
+        </activity>
+        <activity
+            android:name=".repons1"
+            android:screenOrientation="portrait" /> <!-- mode portrait -->
+        <activity
+            android:name=".joueurs_2"
+            android:screenOrientation="portrait" /> <!-- mode portrait -->
+        <activity
+            android:name=".vertion_simple"
+            android:screenOrientation="portrait" /> <!-- mode portrait -->
+        <activity
+            android:name=".Partie"
+            android:screenOrientation="portrait" /> <!-- mode portrait -->
+        <activity
+            android:name=".Moriponlayout"
+            android:screenOrientation="portrait" /> <!-- mode portrait -->
+        <activity
+            android:name=".repons"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

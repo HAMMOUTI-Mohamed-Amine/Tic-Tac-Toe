@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Partie">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="50dp"
+            android:text="Morpion_HMA"
+            android:textColor="@android:color/holo_green_dark"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/button_HMA"
+            android:layout_width="198dp"
+            android:layout_height="46dp"
+            android:text="Facile"
+            android:onClick="open_simple_HMA"
+            android:textColor="#ffffffff"
+            android:background="@drawable/style_button"
+            android:layout_marginTop="20dp"
+            />
+
+        <Button
+            android:id="@+id/button2_HMA"
+            android:layout_width="198dp"
+            android:layout_height="46dp"
+            android:text="Deficile"
+            android:onClick="open_avanse_HMA"
+            android:background="@drawable/style_button"
+            android:textColor="#ffffffff"
+            android:layout_marginTop="60dp"
+
+            />
+
+        <Button
+            android:id="@+id/button3_HMA"
+            android:layout_width="198dp"
+            android:layout_height="46dp"
+            android:onClick="open_2joueurs_HMA"
+            android:text="2 Joueur"
+            android:background="@drawable/style_button"
+            android:textColor="#ffffffff"
+            android:layout_marginTop="60dp"
+            />
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
